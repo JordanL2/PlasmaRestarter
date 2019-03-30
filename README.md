@@ -10,8 +10,8 @@ The script receives events from the org.kde.KScreen /backend DBus bus. When the 
 This daemon will not cope with a dynamic monitor setup, where you may be connecting and disconnecting external monitors. It is only designed to work with static setups. It will cope with the monitor count increasing, but when the monitor count legitimately decreases the daemon will need to be restarted.
 
 ## Dependencies
-Python 3
-python-pydbus
+* Python 3
+* python-pydbus
 
 ## Setup
 Clone this repo to somewhere on your computer.
