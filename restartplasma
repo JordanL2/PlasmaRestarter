@@ -1,3 +1,4 @@
 #!/bin/sh
 killall plasmashell
+sleep 1
 kstart5 plasmashell >/dev/null 2>&1 &
